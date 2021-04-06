@@ -122,7 +122,7 @@ input, select, textarea {
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
 		text-decoration: underline;
-		color: #717479;
+		color: #000000;
 	}
 
 		a:hover {
@@ -1633,7 +1633,7 @@ input, select, textarea {
 		-ms-transition: all .25s ease-in-out;
 		transition: all .25s ease-in-out;
 		display: inline-block;
-		background: #444;
+		background: rgb(20, 20, 20);
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -2026,12 +2026,12 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #ffffff url("images/overlay.png");
+			background: #000000 url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #ffffff url("images/overlay.png");
-				color: #484d55;
+				background: #000000 url("images/overlay.png");
+				color: #ffffff;
 			}
 
 			.wrapper.style3 .image {
@@ -2804,7 +2804,7 @@ input, select, textarea {
 			.button {
 				display: block;
 				width: 100%;
-				font-size: 1em;
+				font-size: 10px;
 				max-width: 30em;
 				margin: 0 auto;
 			}
@@ -2984,3 +2984,85 @@ input, select, textarea {
 						}
 
 	}
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 9px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #ff0000;
+    color: white;
+}
+
+
+
+.gallery_product
+{
+    margin-bottom: 10px;
+}
+
+.tile 
+{
+	height: 30%;
+	width: 30%;
+    border-radius: 10px;
+
+    /* opacity: 0.8; */
+    padding: 10px;
+	background: #fff;
+	width: 32% !important;
+	margin-left: 10px;
+}
+	
+}
+
+.tile h3, h5 {
+    color: #000000 !important;
+}
+.uxu {
+	background: rgb(255, 210, 210);
+	
+}
+
+.dev {
+	background: rgb(116, 116, 116);
+	
+}
+
+.style4 {
+	color: #fff;
+}
