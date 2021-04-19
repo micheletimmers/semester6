@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michèle Timmers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="right-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+					
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a href="index.html">Portfolio Michèle Timmers</a></h1>
+							<p>Semester 6</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="../index.html#opdrachtentag">Opdrachten</a></li>
+								
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<div class="title">Simac</div>
+					<div class="container">
+						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<article class="box post">
+											<header class="style2" style="color: rgb(202, 202, 202);">
+												<h2 style="color: rgb(255, 255, 255); font-size: 40px;">Development</h2>
+												<section class="box">
+                                                    <a href="Definitiefconceptsimac.html" id="midden" class="button style2 medium">Vorige opdracht</a>
+                                        
+                                                    <a href="Flyersimac.html" id="midden" class="button style2 medium">Volgende opdracht</a>
+                                                </section>
+											</header>
+											
+											<h2 style="color: rgb(226, 226, 226); font-size: 20px;">Inleiding</h2>
+												<p>Op het moment dat we het concept duidelijk hadden, konden we als groep eindelijk werken aan een prototype. We hebben de groep opgesplitst, zodat iedereen goed door kan werken. 
+                                                    Samen met Luuk werk ik aan het kookgedeelte van de app. Dit doen we in React Native. Luuk heeft hier al een keer mee gewerkt en is te koppelen aan de back-end waar Yassin aan werkt. 
+                                                    
+                                            	</p>
+                                            	<h2 style="color: rgb(226, 226, 226); font-size: 20px;">Aanpak</h2>
+												<p>Om beter te kunnen programmeren werk ik ook aan de workshops van Maikel Putman. Maar dit laat ik achterwege, omdat dit over Simac gaat. 
+                                                   <br> Als eerste heb ik een tutorial gevolgd over React Native om de beginselen te leren. Daarna kreeg ik de taak om de login pagina te ontwerpen en te bouwen in React Native. 
+                                                   <br> Ik heb eerst een ontwerp gemaakt, zodat ik weet naar welke onderdelen ik moet kijken in React Native en ik niet te veel informatie tot me neem en afwijk van het doel. 
+                                                   <br>
+                                                   <br> Het ontwerp dat ik heb gemaakt, is gebaseerd op de guidelines van Apple, omdat Luuk hier al mee bezig was. Ik heb me eerst ingelezen op de website van Apple, voordat ik begon aan het ontwerp. 
+                                                   <br>
+                                                   <br> Met het ontwerp heb ik rekening gehouden met margin ruimte aan de linker en rechter kant. De button is afgerond en full-width. En bevat een safe space. (Afbeelding).
+                                                   <br>
+                                                   <br> Ook met de kleuren heb ik rekening gehouden. Zo heb ik Simac kleuren gebruikt, en niet te veel verschillende kleuren. De kleuren complimenteren elkaar, en de belangrijkste elementen springen eruit (Apple, zd.). 
+                                                    
+                                                </p>
+
+                                                
+										</article>
+										
+										
+										<!-- Bijlage -->
+
+										<!-- Trigger the Modal -->
+										<img id="myImg" src="../images/Schermafbeelding 2021-04-19 om 17.23.08.png" alt="Login pagina" style="width:100%;max-width:300px">
+
+										<!-- The Modal -->
+										<div id="myModal" class="modal">
+
+										<!-- The Close Button -->
+										<span class="close">&times;</span>
+
+										<!-- Modal Content (The Image) -->
+										<img class="modal-content" id="img01">
+
+										<!-- Modal Caption (Image Text) -->
+										<div id="caption"></div>
+										</div>
+
+
+									
+										
+									</div>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+							
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			
+			
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
